@@ -1,0 +1,218 @@
+"custom_items_game"
+{
+	"items"
+	{
+		"51"
+		{
+			"name"						"Anti-Aircraft Cannon"
+			"prefab"					"weapon_aagun"
+			"show_in_armory"			"1"
+			"item_name"					"#TF_Weapon_AAGun"
+			"item_description"			"#TF_Weapon_AAGun_Desc"
+			"item_type_name"			"#TF_Weapon_AAGun"
+			"item_logname"				"aagun"
+			"item_iconname"				"aa_cannon"
+			"image_inventory"			"backpack/weapons/w_models/w_aagun"
+			"model_world"				"models/weapons/w_models/w_aagun.mdl"
+			"model_player"				"models/weapons/v_models/v_aagun_heavy.mdl"
+			"attach_to_hands"			"2"
+			"used_by_classes"
+			{
+				"heavy"					"1"
+			}
+			"attributes"													
+			{
+				"explosive bullets"																
+				{
+					"attribute_class"	"explosive_bullets"
+					"value"				"1"
+				}
+				"mod mini-crit airborne on direct DISPLAY ONLY"
+				{
+					"attribute_class"	"DISPLAY_ONLY"
+					"value"				"1"
+				}
+				"mod mini-crit airborne simple min height hidden"
+				{
+					"attribute_class"	"mini_crit_airborne_simple_min_height"
+					"value"				"128"
+				}
+				"mod mini-crit airborne hidden"
+				{
+					"attribute_class"	"mini_crit_airborne"
+					"value"				"1"
+				}
+				"blast splash damage decreased"
+				{
+					"attribute_class"	"mult_explosion_splash_damage"
+					"value"				"0.67"
+				}
+				"limited range DISPLAY ONLY"
+				{
+					"attribute_class"	"DISPLAY_ONLY"
+					"value"				"1"
+				}
+				"blast dmg to self increased hidden"
+				{
+					"attribute_class"	"blast_dmg_to_self"
+					"value"				"2.0"
+				}
+				"self dmg push force hidden"				
+				{
+					"attribute_class"	"mult_dmgself_push_force"
+					"value" 			"0.1"
+				}
+				"dmg push force to stickies increased hidden"
+				{
+					"attribute_class"	"mult_dmg_push_force_to_stickies"
+					"value"				"3.0"
+				}
+				"bullet is a hull"
+				{
+					"attribute_class"	"bullet_is_a_hull"
+					"value"				"10.0"
+				}
+				"custom falloff"
+				{
+					"attribute_class"	"mod_custom_falloff"
+					"value"				"0.75"
+				}
+				"modifier mini crit airborne direct hit only hidden"
+				{
+					"attribute_class"	"mod_minicrit_airborne_direct_hit_only"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"sound_empty"			"Weapon_AAGun_PublicTest.ClipEmpty"
+				"sound_double_shot"		"Weapon_AAGun_PublicTest.Fire"
+				"sound_burst"			"Weapon_AAGun_PublicTest.FireCrit"
+				"sound_special1"		"BaseExplosionEffect.Sound"
+				"animation_replacement"
+				{
+					"ACT_MP_ATTACK_STAND_PRIMARY"				"ACT_MP_ATTACK_STAND_PRIMARY_ALT"
+					"ACT_MP_ATTACK_CROUCH_PRIMARY"				"ACT_MP_ATTACK_CROUCH_PRIMARY_ALT"
+					"ACT_MP_ATTACK_SWIM_PRIMARY"				"ACT_MP_ATTACK_SWIM_PRIMARY_ALT"
+				}
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 5 -9"
+			}
+			"mouse_pressed_sound"		"#ui/item_heavier_gun_pickup.wav"
+			"drop_sound"				"#ui/item_heavier_gun_drop.wav"
+		}
+		"49"
+		{
+			"name"						"Chekhov's Punch"
+			"item_class"				"tf_weapon_russianroulette"
+			"item_name"					"#TF_Weapon_Chekhov"
+			"item_description"			"#TF_Weapon_Chekhov_Desc"
+			"item_type_name"			"#TF_Weapon_Chains"
+			"item_slot"					"melee"
+			"show_in_armory"			"1"
+			"attach_to_hands"			"2"
+			"item_logname"				"chekhov"
+			"item_iconname"				"chekhov"
+			"image_inventory"			"backpack/weapons/w_models/w_chekhovs"
+			"model_world"				"models/weapons\w_models\w_chekhovspunch.mdl"
+			"model_player"				"models\weapons\v_models\v_chekhovspunch.mdl"
+			"extra_wearable"			"models\player\items\heavy\chain_wearable_heavy_reference.mdl"
+			"used_by_classes"
+			{
+				"heavy"				"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"8 0 -6"
+			}
+			"attributes"
+			{
+				"chekhov punch VISUAL ONLY STORE 3 CRITS"
+				{
+					"attribute_class"	"VISUALONLY"
+					"value"				"1"
+				}
+				"chekhov punch VISUAL ONLY CRITS CONSUMED BY ALL WEAPONS"
+				{
+					"attribute_class"	"VISUALONLY"
+					"value"				"1"
+				}
+				"melee taken becomes crit on wearer"
+				{
+					"attribute_class"	"melee_taken_becomes_crit_wearer"
+					"value"				"1"
+				}
+				"chekhov punch VISUAL ONLY CRIT ONLY AT FULL CAPACITY"
+				{
+					"attribute_class"	"VISUALONLY"
+					"value"				"1"
+				}
+				
+				// hidden
+				"hidden separator"		"1"
+
+				"gain stored crits on hit"
+				{
+					"attribute_class"	"gain_stored_crits_on_hit"
+					"value"				"1"
+				}
+				"lose stored crits on miss"
+				{
+					"attribute_class"	"lose_stored_crits_on_miss"
+					"value"				"1"
+				}
+				"always crits on full stored crits"
+				{
+					"attribute_class"	"always_crit_full_stored_crits"
+					"value"				"1"
+				}
+				"cannot use stored crits hidden"
+				{
+					"attribute_class"	"cannot_use_stored_crits"
+					"value"				"1"
+				}
+				"crit mod disabled hidden"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"				"0"
+				}
+				"mod melee crit swing custom damage"
+				{
+					"attribute_class"	"mod_melee_crit_swing_custom_damage"
+					"value"				"29"
+				}
+				"melee range multiplier"
+				{
+					"attribute_class"	"melee_range_multiplier"
+					"value"				"1.65"
+				}
+				"custom hand viewmodel"
+				{
+					"attribute_class"	"custom_hand_viewmodel"
+					"value"				"models\weapons\c_models\c_heavy_arms_chains.mdl"
+				}
+			}
+			"visuals"
+			{
+				"sound_melee_miss"		"Weapon_RussianRoulette_PublicTest.Miss"
+				"sound_melee_hit"		"Weapon_RussianRoulette_PublicTest.HitFlesh"
+				"sound_melee_hit_world"	"Weapon_RussianRoulette_PublicTest.HitWorld"
+				"sound_burst"			"Weapon_RussianRoulette_PublicTest.MissCrit"
+				"animation_replacement"
+				{
+					"ACT_VM_IDLE"		"ACT_FISTS_VM_IDLE"
+					"ACT_VM_HITLEFT"	"ACT_FISTS_VM_HITLEFT"
+					"ACT_VM_HITRIGHT"	"ACT_FISTS_VM_HITRIGHT"
+					"ACT_VM_SWINGHARD"	"ACT_FISTS_VM_SWINGHARD"
+					"ACT_VM_DRAW"		"ACT_FISTS_VM_DRAW"
+					"ACT_MP_ATTACK_STAND_MELEE_SECONDARY"				"ACT_MP_ATTACK_STAND_SECONDARY2"
+					"ACT_MP_ATTACK_CROUCH_MELEE_SECONDARY"				"ACT_MP_ATTACK_CROUCH_SECONDARY2"
+				}
+			}
+			"mouse_pressed_sound"		"#ui/item_pack_pickup.wav"
+			"drop_sound"				"#ui/item_pack_drop.wav"
+		}
+	}
+}

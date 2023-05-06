@@ -1,0 +1,95 @@
+// ------------------------------------------------------------------------------------ //
+// AA Gun	// Placeholders too
+// ------------------------------------------------------------------------------------ //
+
+"Weapon_AAGun_PublicTest.WindUp"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/aa_wind_up_publictest.wav"
+}
+"Weapon_AAGun_PublicTest.WindDown"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_94dB"
+	"volume"	"1.0"
+	"wave"		")weapons/aa_wind_down_publictest.wav"
+}
+"Weapon_AAGun_PublicTest.Spin"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_84dB"
+	"volume"	"1.0"
+	"wave"		")weapons/aa_spin_publictest.wav"
+}
+
+// ------------------------------------------------------------------------------------ //
+// Russian Roulette
+// ------------------------------------------------------------------------------------ //
+
+"Weapon_RussianRoulette_PublicTest.Draw"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_105dB"
+	"pitch"			"95,105"
+	"volume"		"1.0"
+	"wave"			"weapons/draw_chekov_publictest.wav"
+}
+
+"Weapon_RussianRoulette_PublicTest.DrawClink"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_150dB"
+	"pitch"			"95,105"
+	"volume"		"1.0"
+	"wave"			"weapons/draw_chekov_clang_publictest.wav"
+}
+
+"Weapon_RussianRoulette_PublicTest.Miss"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_105dB"
+	"volume"		"1.0"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"		"weapons/chekov_swing1_publictest.wav"
+		"wave"		"weapons/chekov_swing2_publictest.wav"
+	}
+}
+
+"Weapon_RussianRoulette_PublicTest.MissCrit"
+{
+	"channel"		"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_105dB"
+	"volume"		"1.0"
+	"wave"			"weapons/chekov_swing_crit_publicplaytest.wav"
+}
+
+"Weapon_RussianRoulette_PublicTest.HitWorld"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_105dB"
+	"volume"		"1.0"
+	"pitch"			"95,105"
+	"rndwave"
+	{
+		"wave"		"weapons/chekov_hit_world1_publicplaytest.wav"
+		"wave"		"weapons/chekov_hit_world2_publicplaytest.wav"
+	}
+}
+
+"Weapon_RussianRoulette_PublicTest.HitFlesh"
+{
+	"channel"	"CHAN_STATIC"
+	"soundlevel"	"SNDLVL_105dB"
+	"pitch"		"95,105"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		")weapons/chekov_hit_flesh1_publicplaytest.wav"
+		"wave"		")weapons/chekov_hit_flesh2_publicplaytest.wav"
+		"wave"		")weapons/chekov_hit_flesh3_publicplaytest.wav"
+	}
+}
