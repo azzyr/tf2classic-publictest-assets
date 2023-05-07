@@ -31,7 +31,7 @@
 "Weapon_RussianRoulette_PublicTest.Draw"
 {
 	"channel"		"CHAN_STATIC"
-	"soundlevel"	"SNDLVL_105dB"
+	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
 	"volume"		"1.0"
 	"wave"			"weapons/draw_chekov_publictest.wav"
@@ -40,7 +40,7 @@
 "Weapon_RussianRoulette_PublicTest.DrawClink"
 {
 	"channel"		"CHAN_STATIC"
-	"soundlevel"	"SNDLVL_150dB"
+	"soundlevel"	"SNDLVL_NORM"
 	"pitch"			"95,105"
 	"volume"		"1.0"
 	"wave"			"weapons/draw_chekov_clang_publictest.wav"
@@ -49,7 +49,7 @@
 "Weapon_RussianRoulette_PublicTest.Miss"
 {
 	"channel"		"CHAN_WEAPON"
-	"soundlevel"	"SNDLVL_105dB"
+	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"1.0"
 	"pitch"			"95,105"
 	"rndwave"
@@ -62,7 +62,7 @@
 "Weapon_RussianRoulette_PublicTest.MissCrit"
 {
 	"channel"		"CHAN_WEAPON"
-	"soundlevel"	"SNDLVL_105dB"
+	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"1.0"
 	"wave"			"weapons/chekov_swing_crit_publictest.wav"
 }
@@ -70,7 +70,7 @@
 "Weapon_RussianRoulette_PublicTest.HitWorld"
 {
 	"channel"		"CHAN_STATIC"
-	"soundlevel"	"SNDLVL_105dB"
+	"soundlevel"	"SNDLVL_NORM"
 	"volume"		"1.0"
 	"pitch"			"95,105"
 	"rndwave"
@@ -83,7 +83,7 @@
 "Weapon_RussianRoulette_PublicTest.HitFlesh"
 {
 	"channel"	"CHAN_STATIC"
-	"soundlevel"	"SNDLVL_105dB"
+	"soundlevel"	"SNDLVL_NORM"
 	"pitch"		"95,105"
 	"volume"	"1.0"
 	"rndwave"
