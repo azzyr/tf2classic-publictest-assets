@@ -85,9 +85,12 @@
 			}
 			"visuals"
 			{
-				"sound_empty"			"Weapon_AAGun_PublicTest.ClipEmpty"
-				"sound_double_shot"		"Weapon_AAGun_PublicTest.Fire"
-				"sound_burst"			"Weapon_AAGun_PublicTest.FireCrit"
+				"sound_empty"			"Weapon_AAGun.ClipEmpty"
+				"sound_double_shot"		"Weapon_AAGun.Fire"
+				"sound_burst"			"Weapon_AAGun.FireCrit"
+				"sound_reload"			"Weapon_AAGun_PublicTest.Spin"	// That's right, a hack
+				"sound_special2"		"Weapon_AAGun_PublicTest.WindUp"
+				"sound_special3"		"Weapon_AAGun_PublicTest.WindDown"
 				"sound_special1"		"BaseExplosionEffect.Sound"
 				"animation_replacement"
 				{
@@ -117,7 +120,7 @@
 			"item_iconname"				"chekhov"
 			"image_inventory"			"backpack/weapons/w_models/w_chekhovs"
 			"model_world"				"models/weapons\w_models\w_chekhovspunch.mdl"
-			"model_player"				"models\weapons\v_models\v_chekhovspunch.mdl"
+			"model_player"				"models\weapons\v_models\v_chekhovspunch_publictest.mdl"
 			"extra_wearable"			"models\player\items\heavy\chain_wearable_heavy_reference.mdl"
 			"used_by_classes"
 			{
