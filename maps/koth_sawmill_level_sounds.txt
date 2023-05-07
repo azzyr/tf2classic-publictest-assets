@@ -64,7 +64,7 @@
 	"channel"		"CHAN_WEAPON"
 	"soundlevel"	"SNDLVL_105dB"
 	"volume"		"1.0"
-	"wave"			"weapons/chekov_swing_crit_publicplaytest.wav"
+	"wave"			"weapons/chekov_swing_crit_publictest.wav"
 }
 
 "Weapon_RussianRoulette_PublicTest.HitWorld"
@@ -75,8 +75,8 @@
 	"pitch"			"95,105"
 	"rndwave"
 	{
-		"wave"		"weapons/chekov_hit_world1_publicplaytest.wav"
-		"wave"		"weapons/chekov_hit_world2_publicplaytest.wav"
+		"wave"		"weapons/chekov_hit_world1_publictest.wav"
+		"wave"		"weapons/chekov_hit_world2_publictest.wav"
 	}
 }
 
@@ -88,8 +88,8 @@
 	"volume"	"1.0"
 	"rndwave"
 	{
-		"wave"		")weapons/chekov_hit_flesh1_publicplaytest.wav"
-		"wave"		")weapons/chekov_hit_flesh2_publicplaytest.wav"
-		"wave"		")weapons/chekov_hit_flesh3_publicplaytest.wav"
+		"wave"		")weapons/chekov_hit_flesh1_publictest.wav"
+		"wave"		")weapons/chekov_hit_flesh2_publictest.wav"
+		"wave"		")weapons/chekov_hit_flesh3_publictest.wav"
 	}
 }
