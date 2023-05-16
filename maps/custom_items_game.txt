@@ -161,11 +161,11 @@
 					"attribute_class"	"gain_stored_crits_on_hit"
 					"value"				"1"
 				}
-			//	"lose stored crits on miss"
-			//	{
-			//		"attribute_class"	"lose_stored_crits_on_miss"
-			//		"value"				"1"
-			//	}
+				"lose stored crits on miss"
+				{
+					"attribute_class"	"lose_stored_crits_on_miss"
+					"value"				"1"
+				}
 				"always crits on full stored crits"
 				{
 					"attribute_class"	"always_crit_full_stored_crits"
